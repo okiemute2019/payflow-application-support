@@ -1,0 +1,22 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Laravel
+/vendor/
+/node_modules/
+/public/build/
+/storage/*.key
+/storage/logs/*
+/bootstrap/cache/*.php
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local exports and temporary files
+*.log
+*.tmp
